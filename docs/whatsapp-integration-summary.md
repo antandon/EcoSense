@@ -84,8 +84,8 @@ Webhook tracks:
 ### New Files (5):
 1. ✅ `src/lib/whatsapp-service.ts` - Main service
 2. ✅ `src/app/api/whatsapp/webhook/route.ts` - Webhook handler
-3. ✅ `WHATSAPP-SETUP-GUIDE.md` - Complete setup guide
-4. ✅ `WHATSAPP-INTEGRATION-SUMMARY.md` - This file
+3. ✅ `whatsapp-setup-guide.md` - Complete setup guide
+4. ✅ `whatsapp-integration-summary.md` - This file
 5. ✅ `.env.example` - Updated with WhatsApp vars
 
 ### Modified Files (4):
@@ -285,7 +285,7 @@ Must be created and approved in Meta Business Suite:
 
 ## 🎓 Next Steps
 
-### 1. Complete Setup (See WHATSAPP-SETUP-GUIDE.md)
+### 1. Complete Setup (See whatsapp-setup-guide.md)
 
 - [ ] Create Meta Developer app
 - [ ] Get access token and phone number ID
@@ -323,9 +323,9 @@ firebase deploy --only firestore:rules
 
 ## 📚 Documentation Files
 
-1. **WHATSAPP-SETUP-GUIDE.md** - Complete setup instructions
-2. **WHATSAPP-INTEGRATION-SUMMARY.md** - This file
-3. **QUICK-REFERENCE.md** - Quick API reference
+1. **whatsapp-setup-guide.md** - Complete setup instructions
+2. **whatsapp-integration-summary.md** - This file
+3. **quick-reference.md** - Quick API reference
 4. **.env.example** - Environment variables template
 
 ---
