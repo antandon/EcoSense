@@ -336,7 +336,6 @@ WHATSAPP_PHONE_NUMBER_ID=
 ---
 
 **For more details, see:**
-- `FIRESTORE-MIGRATION-GUIDE.md` - Complete migration guide
-- `MIGRATION-SUMMARY.md` - Migration summary
-- `docs/database-migration-plan.md` - Original migration plan
+- `firestore-migration-guide.md` - Complete migration guide
+- `database-migration-plan.md` - Original migration plan
 

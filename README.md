@@ -36,7 +36,7 @@ Create your own project in the [Firebase Console](https://console.firebase.googl
 
 - Update the project id in `.firebaserc`.
 - Generate a service account key (Project Settings → Service Accounts) for the server-side credentials below.
-- Deploy the Firestore rules in `firestore.rules` (see `DEPLOY-FIRESTORE-RULES.md`).
+- Deploy the Firestore rules in `firestore.rules` (see [`docs/deploy-firestore-rules.md`](docs/deploy-firestore-rules.md)).
 
 ### 3. Environment variables
 
@@ -78,14 +78,18 @@ Open `Weightwise_arduino/Weightwise_arduino.ino`, fill in your own Wi-Fi and Fir
 
 ## Documentation
 
+All guides live in the [`docs/`](docs/) folder.
+
 | File | Covers |
 |------|--------|
-| `WHATSAPP-SETUP-GUIDE.md` | Full WhatsApp Cloud API setup (Meta app, token, templates, webhook) |
-| `WHATSAPP-INTEGRATION-SUMMARY.md` | Technical overview of the messaging system |
-| `QUICK-REFERENCE.md` | API and development quick reference |
-| `FIRESTORE-MIGRATION-GUIDE.md`, `docs/database-migration-plan.md` | Moving data from Realtime Database to Firestore |
-| `SEARCH-FEATURE.md` | Bin search feature |
-| `esp32-firebase-example.md` | ESP32 → Firebase example |
+| [`whatsapp-setup-guide.md`](docs/whatsapp-setup-guide.md) | Full WhatsApp Cloud API setup (Meta app, token, templates, webhook) |
+| [`whatsapp-integration-summary.md`](docs/whatsapp-integration-summary.md) | Technical overview of the messaging system |
+| [`quick-reference.md`](docs/quick-reference.md) | API and development quick reference |
+| [`deploy-firestore-rules.md`](docs/deploy-firestore-rules.md) | Deploying the Firestore security rules |
+| [`firestore-migration-guide.md`](docs/firestore-migration-guide.md), [`database-migration-plan.md`](docs/database-migration-plan.md) | Moving data from Realtime Database to Firestore |
+| [`search-feature.md`](docs/search-feature.md) | Bin search feature |
+| [`esp32-firebase-example.md`](docs/esp32-firebase-example.md) | ESP32 → Firebase example |
+| [`blueprint.md`](docs/blueprint.md) | Original app blueprint |
 
 ## Notes
 
